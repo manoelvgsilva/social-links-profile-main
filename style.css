@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslategrey;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-general {
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 420px;
+    border-radius: 10px;
+    flex-direction: column;
+    color: white;
+}
+
+.centralizer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+}
+
+.border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    width: 160px;
+    border-radius: 150px;
+    background-color: green;
+    padding: 30px;
+}
+
+img {
+    width: auto;
+    height: 150px;
+    border-radius: 150px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+
+.info p {
+    color: chartreuse;
+}
+
+.nav {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+
+.nav button {
+    height: 30px;
+    width: 240px;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: bold;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
