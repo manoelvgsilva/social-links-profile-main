@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: darkslategrey;
+    background-color: #005f73;
     display: flex;
     height: 100vh;
     align-items: center;
@@ -13,7 +13,7 @@ body {
 }
 
 .card-general {
-    background-color: darkblue;
+    background-color: #0a9396;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,7 +39,7 @@ body {
     height: 160px;
     width: 160px;
     border-radius: 150px;
-    background-color: green;
+    background-color: #94d2bd;
     padding: 30px;
 }
 
@@ -59,7 +59,7 @@ img {
 }
 
 .info p {
-    color: chartreuse;
+    color: #94d2bd;
 }
 
 .nav {
@@ -76,7 +76,8 @@ img {
     height: 30px;
     width: 240px;
     border-radius: 5px;
-    background-color: green;
+    border: none;
+    background-color: #94d2bd;
     font-weight: bold;
 }
 
